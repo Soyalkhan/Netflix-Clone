@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: #232323;
+}
+.logo-main{
+    width: 170px;
+    height: 55px;
+    margin-top: 20px;
+    /* padding: 20px; */
+    margin-left: 100px;
+}
+
+.header{
+    background-color: rgba(0, 0, 0, 0);
+    height: 100px;
+    display: flex;
+     
+}
+.login-button-side{
+    margin-top: 25px;  
+    margin-left: 48%; 
+}   
+.banner{
+   
+    height: 600px;
+    width: auto;
+    box-shadow: inset 30px 30px 180px 180px rgba(0, 0, 0, 0.8);
+    display: grid;
+    justify-content: center;
+    
+}
+.lang-ck{
+    padding: 7px 16px 7px 16px;
+    font-weight: 600;
+    cursor:pointer;
+    background-color: rgba(0, 0, 0, 0.121);
+    color: white;
+    border-radius: 4px;
+    border: 1px solid white;
+   
+}
+.lang-ck option{
+    color: black;
+    background-color: white;
+    }
+
+.btn-login{
+    padding: 7px 12px 7px 12px;
+    font-weight: 600;
+    cursor:pointer;
+    background-color: #E50914;
+    border-radius: 4px;
+    border: none;
+    margin-left:10px ;
+    color: white;
+   
+}
+.btn-login:hover{
+    transition: ease-out 0.5s;
+    background-color: rgb(180, 5, 5);
+}
+
+.banner-txt h1{
+    margin-top: 40px;;
+    width: 70%;
+    margin-left: 160px;
+    color: white;
+    font-size: 45px;
+    font-weight: 900;
+    text-align: center;
+}
+.banner-txt p{
+    width: 80%;
+    margin-left: 120px;
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.8;
+}
+.btn-2nd{
+    margin-top: 10px;
+    margin-left: 350px;
+   align-items: center;
+}
+.btn2-subs{
+    padding: 7px 20px 7px 20px;
+    font-weight: 600;
+    cursor:pointer;
+    background-color: #E50914;
+    border-radius: 4px;
+    border: none;
+    margin-left:10px ;
+    color: white;
+    font-size: 25px;
+}
+.btn-2nd input{
+    padding: 12px 20px 12px 20px;
+    background-color: rgba(0, 0, 0, 0.47);
+    border: 1px solid white;
+    border-radius: 4px;
+    color: white;
+    font-size: 20px;
+    width: 300px;
+    
+}
+.btn2-subs:hover{
+    transition: ease-out 0.5s;
+    background-color: rgb(180, 5, 5);
+}
+
+.inner-section:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+  }
+.TV{
+    width: 400px;
+    height: 300px;
+    position: absolute;
+}
+.tv-txt{
+   
+    font-size: 32px;
+    margin-top: 10px;
+    color: white;
+    background-color: black;
+    float: left;
+    width: 55%;
+    padding: 10px;
+    height: 450px; 
+  }
+  .tv-txt2{
+    font-size: 32px;
+    margin-top: 10px;
+    color: white;
+    margin-top: 10px;
+    background-color: black;
+    float: right;
+    width: 45%;
+    height: 450px; /* Should be removed. Only for demonstration */
+   
+  }
+
+  .tv-txt h2{
+    /* padding: 60px; */
+    margin-top: 140px;
+    margin-left: 60px;
+  }
+  .tv-txt p{
+    width: 80%;
+    margin-left: 50px;
+    font-size: 25px;
+    padding: 10px;
+  }
+.video1{
+
+   width: 349px;
+   height: 300px;
+
+}
+/* .stranger-box{
+    position: absolute;
+} */
+.staran{
+    height: 70px;
+    width: 230px;
+    border-radius: 12px;
+    border: 3px solid gray;
+    position: absolute;
+    padding: 5px;
+    display: flex;
+    margin-top: 200px;
+    margin-left:100px;
+    background-color: black;
+}
+.stranger{
+   
+    font-size: 9px;
+    margin-top: 10px;
+    color: white;
+    background-color: black;
+    float: left;
+    width: 40%;
+    padding: 20px;
+    height: 450px; 
+  }
+  .stranger2{
+    font-size: 32px;
+    margin-top: 10px;
+    color: white;
+    margin-top: 10px;
+    background-color: black;
+    float: right;
+    width: 60%;
+    height: 450px; /* Should be removed. Only for demonstration */
+   
+  }
+
+  
+  .stranger2 h2{
+    /* padding: 60px; */
+    margin-top: 140px;
+    margin-left: 60px;
+  }
+  .stranger2 p{
+    width: 80%;
+    margin-left: 50px;
+    font-size: 25px;
+    padding: 10px;
+  }
+
+  .st2{
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    margin-left: 20px;
+  }
+  .video3{
+
+    width: 300px;
+    height: 250px;
+    margin-left: 100px;
+ 
+ }
+ .TV5{
+    width: 500px;
+    height: 350px;
+    position: absolute;
+    
+}
+.tv-txt-4{
+   
+    font-size: 30px;
+    margin-top: 10px;
+    color: white;
+    background-color: black;
+    float: left;
+    width: 50%;
+    padding: 40px;
+    height: 450px; 
+  }
+  .tv-txt-3{
+    font-size: 32px;
+    margin-top:10px;
+    color: white;
+    margin-top: 10px;
+    background-color: black;
+    float: right;
+    width: 50%;
+    height: 450px; /* Should be removed. Only for demonstration */
+   
+  }
